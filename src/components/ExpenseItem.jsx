@@ -12,6 +12,7 @@ function ExpenseItem(props) {
      </div>
     <div className='expense-item-description'>
     <h2>{props.title}</h2>
+    <h2>{props.location}</h2>
     <div className='expense-item-price'>{props.amount}</div>
     </div>
     </div>

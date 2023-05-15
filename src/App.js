@@ -10,28 +10,33 @@ function App() {
 
   const expense=[
     {
-      id:'el',
+      id:'e1',
       title:'Toilet Paper',
       amount:94.42,
       date:new Date(2020,7,14),
+      location:'Chandigarh'
+
     },
     {
       id:'e2',
       title:'Car Insurances',
        amount:'250.48',
-       date:new Date(2021,5,15)
+       date:new Date(2021,5,15),
+       location:'Bihar'
     },
     {
       id:'e3',
       title:'News TV ',
        amount:'250.48',
-       date:new Date(2023,5,15)
+       date:new Date(2023,5,15),
+       location:"Mumbai"
     },
     {
       id:'e4',
       title:'New Desk',
        amount:'250.48',
-       date:new Date(2022,5,15)
+       date:new Date(2022,5,15),
+       location:'Delhi'
     },
 
   ]
@@ -45,6 +50,7 @@ function App() {
         date={value.date} 
         title={value.title} 
         amount={value.amount} 
+        location={value.location}
       />
     ))}
   </div>
